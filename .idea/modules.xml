@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/SwipeLeftToRight.iml" filepath="$PROJECT_DIR$/SwipeLeftToRight.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SwipeLeftAndWrite.iml" filepath="$PROJECT_DIR$/SwipeLeftAndWrite.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

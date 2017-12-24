@@ -47,10 +47,10 @@ public class OnSwipeTouchListener implements OnTouchListener {
                     viewToAnimate.animate()
                             .x(event.getRawX() + dX)
                             .y(dY)
-                            .setDuration(0)
+                            .setDuration(0)// speed on animation can be changed here
                             .start();
 
-                    // TODO you enhance the logic below
+
 
                     if (!isExit) {
                         float currentX2OfMovingTextView = event.getRawX() + dX + viewToAnimate.getWidth();
