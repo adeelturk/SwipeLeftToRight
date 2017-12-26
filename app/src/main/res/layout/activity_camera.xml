@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+	android:id="@+id/root"
+     >    
+
+	<RelativeLayout
+        android:id="@+id/cameraPreivewConatiner"
+	   	android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+
+	    >
+   
+	<RelativeLayout
+	    android:id="@+id/camera_preview"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	     />
+
+	<Button
+	    android:id="@+id/button_ChangeCamera"
+	    android:layout_width="50dp"
+	    android:layout_height="50dp"
+	    android:layout_alignParentRight="true"
+	    android:background="@drawable/switch_camera"
+        android:layout_margin="10dp"
+        />
+	   
+	</RelativeLayout>
+
+
+		<Button
+			android:id="@+id/captureButton"
+			android:layout_width="100dp"
+			android:layout_height="100dp"
+			android:layout_alignParentBottom="true"
+			android:background="@drawable/capture"
+			android:layout_marginLeft="10dp"
+			android:layout_marginBottom="10dp" />
+
+</RelativeLayout>
